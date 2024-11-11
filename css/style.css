@@ -48,6 +48,7 @@ body{
     grid-column-end: 12;
     font-size: 2.5em;
    
+   
 }
 .encabezado h2{
     
@@ -179,13 +180,14 @@ a{
         grid-column-end: 12;
         font-size: 1.5em;
         padding-top: 15px;
+       
     }
     .encabezado h2 {
         grid-column-start: 2;
         grid-column-end: 12;
         font-size: 1em;
         padding-bottom: 20px;
-        justify-content: center;
+        
     }
     .caja-imagen{
         grid-column-start: 5;
