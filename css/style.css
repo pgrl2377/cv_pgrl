@@ -177,7 +177,7 @@ a{
     .encabezado h1 {
         grid-column-start: 2;
         grid-column-end: 12;
-        font-size:2em;
+        font-size:1.75;
         padding-top: 20px;
        
     }
@@ -222,12 +222,14 @@ a{
 
     .encabezado h1 {
         font-size: 2em;
+        grid-column-start:3;
+        grid-column-end: 12;
     }
 
     .encabezado h2 {
-        font-size: 1.1em;
+        font-size: 1.5em;
         margin-bottom: 30px;
-        grid-column-start:2;
+        grid-column-start:3;
         grid-column-end: 12;
     }
     
