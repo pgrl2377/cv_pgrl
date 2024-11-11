@@ -38,8 +38,7 @@ body{
     border-radius: 75%;
     border: var(--color-letra) 1px solid;
     position: relative;
-    padding: 5px;
-    top: 20px;
+    top:20px;
     left: 20px;
 
 }
@@ -171,21 +170,32 @@ a{
     .encabezado {
         height: auto;
         padding: 20px;
+        text-align: center;
     }
 
     .encabezado h1 {
-        grid-column-start: 1;
+        grid-column-start: 2;
         grid-column-end: 12;
         font-size: 1.5em;
+        padding-top: 15px;
     }
-
     .encabezado h2 {
-        grid-column-start: 1;
+        grid-column-start: 2;
         grid-column-end: 12;
         font-size: 1em;
         padding-bottom: 20px;
+        justify-content: center;
     }
+    .caja-imagen{
+        grid-column-start: 5;
+        grid-column-end: 8;
+        
 
+     }
+    .caja-imagen img{
+        width:150px;
+        height: 150px;
+    }
     .main {
         grid-template-columns: 1fr;
     }
@@ -214,6 +224,7 @@ a{
         font-size: 1.2em;
     }
 
+   
     .main {
         grid-template-columns: repeat(12, 1fr);
     }
