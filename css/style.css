@@ -171,21 +171,22 @@ a{
     .encabezado {
         height: auto;
         padding: 20px;
+        
        
     }
 
     .encabezado h1 {
         grid-column-start: 2;
         grid-column-end: 12;
-        font-size:1.75;
         padding-top: 20px;
+        
        
     }
     .encabezado h2 {
         grid-column-start: 2;
         grid-column-end: 12;
-        font-size: 90%;
-        padding-bottom: 20px;
+        font-size:90%;
+        
         
     }
     .caja-imagen{
