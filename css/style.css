@@ -8,14 +8,18 @@
 :root{
     --color-letra:  #515151;
     --color-background:#a8edea;
+    
 }
-
+body{
+    display: flex;
+    justify-content: center;
+}
 
 #wrapper{
     width: 804px;
     margin: 10px;
     border: #515151 1px solid;
-    
+   
    
 }
 .encabezado{
@@ -32,8 +36,11 @@
 }
 .encabezado img{
     border-radius: 75%;
-    padding: 10px;
-    text-align: center;
+    border: var(--color-letra) 1px solid;
+    position: relative;
+    padding: 5px;
+    top: 20px;
+    left: 20px;
 
 }
 .encabezado h1{
@@ -130,7 +137,7 @@ margin-bottom: 10px;
 .item-4{
    
     padding-left: 2em;
-    background-image: url("../img/curriculum-vitae.png");
+    background-image: url("../img/perfil.png");
     background-position: 0 50%;
     background-size: 1.3em 1.3em;
     background-repeat: no-repeat;
