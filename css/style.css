@@ -46,7 +46,7 @@ body{
 .encabezado h1{
     grid-column-start:3;
     grid-column-end: 12;
-    font-size: 2.5em;
+    font-size: 2em;
    
    
 }
