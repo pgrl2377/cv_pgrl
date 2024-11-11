@@ -40,6 +40,7 @@ body{
     position: relative;
     top:20px;
     left: 20px;
+    padding: 5px;
 
 }
 .encabezado h1{
@@ -195,6 +196,7 @@ a{
     .caja-imagen img{
         width:150px;
         height: 150px;
+        
     }
     .main {
         grid-template-columns: 1fr;
