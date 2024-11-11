@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "DM Serif Text", serif;
+        
+}
+:root{
+    --color-letra:  #515151;
+    --color-background:#a8edea;
+}
+
+
+#wrapper{
+    width: 804px;
+    margin: 10px;
+    border: #515151 1px solid;
+    
+   
+}
+.encabezado{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height:250px;
+    background: linear-gradient(135deg, #a8edea, #9cd8db);
+    color:var(--color-letra);
+   
+
+}
+.encabezado img{
+    border-radius: 75%;
+    padding: 10px;
+    text-align: center;
+
+}
+.encabezado h1{
+    grid-column-start:3;
+    grid-column-end: 12;
+    font-size: 2.5em;
+   
+}
+.encabezado h2{
+    
+    grid-column-start: 3;
+    grid-column-end: 12;
+    font-style: normal;
+    padding-bottom: 50px;
+    color: var(--color-letra);
+}
+h3{
+    margin-top: 16px;
+    padding: 10px;
+    color: var(--color-letra);
+}
+
+h4{
+    color:var(--color-letra);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+hr{
+width: 80%;
+margin-bottom: 10px;
+}
+.main{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12,1fr);
+    
+    
+}
+.aside-datos{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color:var(--color-background);
+    padding-left: 10px;
+   
+    
+    
+}
+.section-uno{
+    grid-column-start: 5;
+    grid-column-end: -1;
+    padding-left: 16px;
+    margin-bottom: 20px;
+   
+}
+
+.centrar-listas-datos > li{
+    list-style: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: var(--color-letra);
+   
+}
+
+
+.item-1{
+  
+    padding-left: 2em;
+    background-image: url("../img/llamada-telefonica.png");
+    background-position: 0 50%;
+    background-size: 1.3em 1.3em;
+    background-repeat: no-repeat;
+    
+
+}
+.item-2{
+   
+    padding-left: 2em;
+    background-image: url("../img/correo.png");
+    background-position: 0 50%;
+    background-size: 1.3em 1.3em;
+    background-repeat: no-repeat;
+
+}
+.item-3{
+   
+    padding-left: 2em;
+    background-image: url("../img/linkedin.png");
+    background-position: 0 50%;
+    background-size: 1.3em 1.3em;
+    background-repeat: no-repeat;
+
+}
+.item-4{
+   
+    padding-left: 2em;
+    background-image: url("../img/curriculum-vitae.png");
+    background-position: 0 50%;
+    background-size: 1.3em 1.3em;
+    background-repeat: no-repeat;
+
+}
+p{
+    color:var(--color-letra);
+    
+   
+}
+.linea-subtitulos2{
+    width: 100%;
+}
+span{
+    display: block;
+    color:var(--color-letra);
+    
+    
+}
+a{
+    color: var(--color-letra);
+    
+}
+
+@media (max-width: 600px) {
+    #wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .encabezado {
+        height: auto;
+        padding: 20px;
+    }
+
+    .encabezado h1 {
+        grid-column-start: 1;
+        grid-column-end: 12;
+        font-size: 1.5em;
+    }
+
+    .encabezado h2 {
+        grid-column-start: 1;
+        grid-column-end: 12;
+        font-size: 1em;
+        padding-bottom: 20px;
+    }
+
+    .main {
+        grid-template-columns: 1fr;
+    }
+
+    .aside-datos,
+    .section-uno {
+        grid-column-start: 1;
+        grid-column-end: -1;
+        padding-left: 5px;
+    }
+}
+
+/* Dispositivos medianos (tablets) */
+@media (min-width: 601px) and (max-width: 1200px) {
+    #wrapper {
+        width: 95%;
+        margin: 0 auto;
+        
+    }
+
+    .encabezado h1 {
+        font-size: 2em;
+    }
+
+    .encabezado h2 {
+        font-size: 1.2em;
+    }
+
+    .main {
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .aside-datos {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .section-uno {
+        grid-column-start: 5;
+        grid-column-end: -1;
+    }
+}
